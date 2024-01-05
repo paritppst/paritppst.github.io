@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: auto;
   height: auto;
   background-color: #0F172A !important;
   font-family: 'Roboto', sans-serif;
@@ -257,5 +257,36 @@ li.d-inline-block:hover {
 
   li.d-inline-block {
     font-size: small !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .gradient-div-pink, .gradient-div-blue, .gradient-div-yellow, .gradient-div-purple, .gradient-div-orange {
+    all: initial !important;
+  }
+
+  h2 {
+    font-size: 1.05rem !important;
+  }
+
+
+  h4 {
+    font-size: 0.8rem !important;
+  }
+
+  h6, .fs-sm-8 {
+    font-size: 0.6rem !important;
+  }
+
+  .display-4 {
+    font-size: 1.75rem !important;
+  }
+
+  div.fs-5 {
+    font-size: 0.8rem !important;
+  }
+
+  li.d-inline-block {
+    font-size: 0.6rem !important;
   }
 }
