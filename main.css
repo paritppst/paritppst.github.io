@@ -237,26 +237,32 @@ li.d-inline-block:hover {
 @media (max-width: 991px) {
   h2 {
     font-size: 1.15rem !important;
+    margin: 0 !important;
   }
 
   h4 {
     font-size: 1rem !important;
+    margin: 0 !important;
   }
 
   h6, .fs-sm-8 {
     font-size: 0.8rem !important;
+    margin: 0 !important;
   }
 
   .display-4 {
     font-size: 2rem !important;
+    margin: 0 !important;
   }
 
   div.fs-5 {
     font-size: 1rem !important;
+    margin: 0 !important;
   }
 
   li.d-inline-block {
     font-size: small !important;
+    margin: 0 !important;
   }
 }
 
@@ -267,26 +273,32 @@ li.d-inline-block:hover {
 
   h2 {
     font-size: 1.05rem !important;
+    margin: 0 !important;
   }
 
 
   h4 {
     font-size: 0.8rem !important;
+    margin: 0 !important;
   }
 
   h6, .fs-sm-8 {
     font-size: 0.6rem !important;
+    margin: 0 !important;
   }
 
   .display-4 {
     font-size: 1.75rem !important;
+    margin: 0 !important;
   }
 
   div.fs-5 {
     font-size: 0.8rem !important;
+    margin: 0 !important;
   }
 
   li.d-inline-block {
     font-size: 0.6rem !important;
+    margin: 0 !important;
   }
 }
