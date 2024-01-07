@@ -66,7 +66,7 @@ li.d-inline-block:hover {
   border-radius: 40px;
   border: 3px solid rgb(0, 114, 220);;
   font-weight: bold;
-}
+}  
 
 .text-justify {
   text-align: justify !important;
@@ -82,7 +82,31 @@ li.d-inline-block:hover {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid #FFFFFF;
+  /* border: 5px solid #FFFFFF; */
+}
+
+.box {
+  border: 5px solid #0000;
+  border-radius: 50%; 
+  background: linear-gradient(#131219, #131219) padding-box, linear-gradient(
+    var(--angle),
+    #070707,
+    #687aff,
+    #e600ff
+  ) border-box;
+  animation: 8s rotate linear infinite;
+} 
+  
+@keyframes rotate {
+    to {
+    --angle: 360deg;
+    }
+}
+
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
 
 .image-container img:hover, #github:hover, #linkedin:hover {
